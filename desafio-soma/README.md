@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+#### Para iniciar o projeto, instalar bibliotecas e rodar o projeto:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Link do teste online: https://desafio-dev-soma.vercel.app/
 
-## Available Scripts
+##### npm i styled-components
 
-In the project directory, you can run:
+##### npm i react-router-dom
 
-### `npm start`
+##### npm i --save @fortawesome/fontawesome-svg-core
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##### npm i --save @fortawesome/free-solid-svg-icons
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##### npm i --save @fortawesome/free-regular-svg-icons
 
-### `npm test`
+##### npm i --save @fortawesome/free-brands-svg-icons
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##### npm i --save @fortawesome/react-fontawesome@latest
 
-### `npm run build`
+##### cd desafio-soma
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##### npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Grupo Soma
+##### GENTE É O QUE SOMA!! Forka esse repositório e siga as instruções!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Quem somos
+Nossa história começa em 2010, com a fusão de duas grandes marcas: ANIMALE e FARM. Cheias de personalidade e líderes no segmento de moda feminina, a união refletiu desde então o propósito de construir marcas que gerem paixão e sejam inspiração tanto para os seus clientes, quanto para o mercado.
 
-### `npm run eject`
+ 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Em 2014, ganhamos as presenças da FÁBULA, a moda infantil da FARM. Um ano depois, a FOXTON reforçou nosso portfólio, com sua moda masculina.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Em 2017, tivemos a honra de receber no grupo a elegância da marca CRIS BARROS. No ano seguinte, surge a OFF PREMIUM, com coleções da moda brasileira. E em 2019, a Animale ganha ainda mais sofisticação com as suas marcas ANIMALE JEANS e ANIMALE ORO. Em 2020, se junta ao Grupo a MARIA FILÓ, com um trabalho em tricô rico em cores e detalhes. E em 2021, ganhamos a força digital da NV, que representa uma mulher versátil, cool, sofisticada e super antenada nas tendências. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ 
 
-## Learn More
+E não para por aí! Com a União de Gigantes, a gente tem a honra de receber as marcas Hering, Hering Kids, Hering Intimates e DZARM. Um grande passo nesse novo capítulo da moda brasileira.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Quer saber mais? Vem acompanhar o maior grupo de moda do país!
 
-### Code Splitting
+ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+[Instagram](www.instagram.com/somosgruposoma/)
 
-### Analyzing the Bundle Size
+[LinkedIn](www.linkedin.com/company/grupo-soma)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Proposta
+O seu desafio aqui é consumir essa [API](https://swapi.dev/) ( ou [essa](https://swapi.py4e.com/) caso a primeira esteja com algum problema ) e mostrar de forma randômica uma resposta por vez referente a categoria em que estivermos ("films", "people", "planets", "species", "starships" ou "vehicles"), tudo de acordo com a URL em que o usuário estiver (Caso eu esteja na url "/peoples" o botão de mostrar informação randômica deve me mostrar um card de personagem randômico com os atributos a sua escolha ...e por ai vai ).
 
-### Making a Progressive Web App
+Sobre a questão do layout, iremos deixar por sua conta! lembrando que css também é muito `!important`; e certamente será um diferencial.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+O fluxo base desse desafio é que ele tenha uma HOME que forneça, de alguma forma, acesso a todas as categorias fornecidas pela API e uma página onde será exibido o card com as informações e o botão que trará o card randômico.
 
-### Advanced Configuration
+Para começar, você deve forkar esse repositório e fazer dele o seu *origin* para esse projeto. Dessa forma, podemos acompanhar seus commits e avaliar melhor o seu desenvolvimento.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Lembrando que mesmo parecendo um desafio "simples" tudo será avaliado, desde que a forma como o consumo da API é feita até como o as pastas do projeto estão estruturadas.
 
-### Deployment
+**O ideal é que o teste seja hospedado em algum lugar e também possua instruções de utilização local em seu readme.md**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Obrigatório
+* HTML, CSS e JS
+* Git
+* Consumo de API REST
+* Rotas
 
-### `npm run build` fails to minify
+## Bônus points
+* [React](https://pt-br.reactjs.org/) ou [Vue.js](https://vuejs.org/)
+* [Styled Component](https://styled-components.com/)
+* [Storybook](https://storybook.js.org/)
+* [Atomic Design](https://tableless.com.br/o-que-e-design-atomic/)
+* Testes unitários
+* Boa aplicação de ferramentas, sejam elas transpiladores, pré-processadores, task-runners, bundlers, etc.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Entre os critérios que pretendemos avaliar em seu código, é muito importante para nós a sua capacidade de [pensar modularmente](https://webstandardssherpa.com/reviews/think-modularly). Além disso, uma boa organização utilizando o Git e estruturando arquivos e pastas são reflexos da sua eficiência ao trabalhar em equipe.
+
+**Grupo Soma**
